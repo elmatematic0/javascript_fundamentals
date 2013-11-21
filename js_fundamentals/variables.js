@@ -41,7 +41,7 @@ console.log("Your age is either " + age2 + " or " + age1 + " depending on which 
 var currentAge = 30;
 var maxAge = 100;
 var snacksPerDay = 3;
-var totalSnacks = (maxAge - currentAge) * 365 * 3;
+var totalSnacks = (maxAge - currentAge) * 365 * snacksPerDay;
 console.log("You will need " + totalSnacks + " to last you until the ripe old age of " + (maxAge - currentAge) + ".");
 
 
